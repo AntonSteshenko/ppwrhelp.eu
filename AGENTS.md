@@ -1,4 +1,4 @@
-# Agent instructions for PPWR Desk
+# Agent instructions for ppwrhelp.eu
 
 Read this file before changing the repository. The project constitution at
 `.specify/memory/constitution.md` governs project policy and takes precedence over
@@ -6,7 +6,7 @@ these operational instructions. The initial product brief is in `README.md`.
 
 ## Project
 
-PPWR Desk is a multilingual site about the EU Packaging and Packaging Waste
+ppwrhelp.eu is a multilingual site about the EU Packaging and Packaging Waste
 Regulation (PPWR), with a quiz, a resource library, and news. The intended language
 coverage is the 24 official EU languages, as defined in
 `specs/001-add-multilingual/spec.md`. Define the rollout of future content areas

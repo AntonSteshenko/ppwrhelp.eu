@@ -1,10 +1,10 @@
-# PPWR Desk
+# ppwrhelp.eu
 
 Applicazione Next.js con App Router e TypeScript.
 
 ## Visione del progetto
 
-PPWR Desk sarà un sito multilingua, disponibile nelle 24 lingue ufficiali dell'UE, dedicato alla normativa UE sugli imballaggi e i rifiuti di imballaggio (PPWR). Dovrà contenere:
+ppwrhelp.eu sarà un sito multilingua, disponibile nelle 24 lingue ufficiali dell'UE, dedicato alla normativa UE sugli imballaggi e i rifiuti di imballaggio (PPWR). Dovrà contenere:
 
 - un quiz per aiutare i visitatori a verificare la propria comprensione della normativa;
 - una libreria di risorse e riferimenti normativi;

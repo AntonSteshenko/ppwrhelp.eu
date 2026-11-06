@@ -50,7 +50,7 @@ language, and page content update together.
 A visitor or search system can identify the canonical page and all available language
 versions from each translated page.
 
-**Why this priority**: Discoverability is a core requirement of PPWR Desk.
+**Why this priority**: Discoverability is a core requirement of ppwrhelp.eu.
 
 **Independent Test**: Inspect each language page's title, summary, canonical address,
 and language alternatives.

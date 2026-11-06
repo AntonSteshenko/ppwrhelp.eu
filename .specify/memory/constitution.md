@@ -1,4 +1,4 @@
-# PPWR Desk Constitution
+# ppwrhelp.eu Constitution
 
 ## Core Principles
 
@@ -75,4 +75,7 @@ of a feature or amendment MUST check compliance with the relevant principles. Ru
 agent instructions may live in a root `AGENTS.md`, but they MUST defer to this
 constitution on project policy.
 
-**Version**: 1.0.0 | **Ratified**: 2026-11-06 | **Last Amended**: 2026-11-06
+**Version**: 1.0.1 | **Ratified**: 2026-11-06 | **Last Amended**: 2026-11-06
+
+**Amendment 1.0.1**: Corrected the product name to ppwrhelp.eu. This naming change
+does not alter the principles or the scope of existing feature specifications.
