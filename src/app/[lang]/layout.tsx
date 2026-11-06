@@ -9,7 +9,7 @@ type Props = {
   params: Promise<{ lang: string }>;
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ppwrhelp.eu";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.ppwrhelp.eu";
 
 export const dynamicParams = false;
 

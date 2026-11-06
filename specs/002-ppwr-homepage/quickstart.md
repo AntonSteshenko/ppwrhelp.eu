@@ -4,7 +4,7 @@
 
 - Install repository dependencies with `npm install`.
 - Ensure `NEXT_PUBLIC_SITE_URL` is unset or equals the intended production origin
-  `https://ppwrhelp.eu` when checking canonical and sitemap URLs.
+  `https://www.ppwrhelp.eu` when checking canonical and sitemap URLs.
 - Complete the 24-locale translation and legal review manifest before a release
   check; see [data-model.md](data-model.md).
 
