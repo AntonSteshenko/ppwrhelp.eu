@@ -35,7 +35,8 @@ technology. The page remains usable at 320 px and with long translated strings.
 - A localized, PPWR-focused title and description describe the visible page.
 - Each page has a self canonical and 24 language alternatives; `/` remains the
   `x-default` alternative.
-- `/sitemap.xml` lists all 24 addresses and their alternatives.
+- `/sitemap.xml` lists the 24 canonical addresses. Language alternatives remain
+  in each page's metadata. `/robots.txt` points to the canonical sitemap URL.
 - Semantic headings and links expose the same facts as the visible page. No FAQ
   structured data is emitted without a visible FAQ.
 

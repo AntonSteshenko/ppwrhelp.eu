@@ -6,13 +6,5 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.ppwrhelp.eu";
 export default function sitemap(): MetadataRoute.Sitemap {
   return locales.map(({ code }) => ({
     url: `${siteUrl}/${code}`,
-    alternates: {
-      languages: Object.fromEntries(
-        locales.map(({ code: alternateCode }) => [
-          alternateCode,
-          `${siteUrl}/${alternateCode}`,
-        ]),
-      ),
-    },
   }));
 }
