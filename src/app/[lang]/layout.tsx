@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/i18n/locales";
-import { messages } from "@/i18n/messages";
+import { quizCopy } from "@/quiz/copy";
 import "../globals.css";
 
 type Props = {
@@ -21,13 +21,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
 
-  const translation = messages[lang];
+  const translation = quizCopy(lang);
   const path = `/${lang}`;
 
   return {
     metadataBase: new URL(siteUrl),
-    title: translation.seoTitle,
-    description: translation.seoDescription,
+    title: `${translation.headline} | ppwrhelp.eu`,
+    description: translation.intro,
+    openGraph: {
+      type: "website", url: path, siteName: "ppwrhelp.eu",
+      title: translation.headline, description: translation.intro, locale: lang,
+    },
     alternates: {
       canonical: path,
       languages: {
